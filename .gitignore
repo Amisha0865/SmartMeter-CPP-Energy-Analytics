@@ -1,0 +1,4 @@
+smartmeter
+*.o
+reports/*.txt
+reports/*.csv
