@@ -1,10 +1,10 @@
-# ⚡ Smart Meter Pulse Counter & Energy Analytics Agent
+#  Smart Meter Pulse Counter & Energy Analytics Agent
 
 ### C++17 • Linux • Software Simulation • Energy Analytics
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Smart Meter Pulse Counter & Energy Analytics Agent** is an individual C++ project that simulates the basic working of a smart electricity meter.
 
@@ -16,7 +16,7 @@ This project is developed and executed in a **Linux environment using Ubuntu/WSL
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Simulate smart-meter pulse readings.
 * Convert meter pulses into energy consumption.
@@ -44,7 +44,7 @@ This project is developed and executed in a **Linux environment using Ubuntu/WSL
 
 ---
 
-## 🧠 Concepts Demonstrated
+##  Concepts Demonstrated
 
 ### 1. C++ Programming
 
@@ -117,7 +117,7 @@ This represents the basic idea of **input → processing → output** in a compu
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 SmartMeter_CPP/
@@ -220,7 +220,7 @@ reports/alerts.csv
 
 ---
 
-## 📊 Main Menu
+##  Main Menu
 
 ```text
 1  Add / update hourly pulse reading
@@ -236,7 +236,7 @@ reports/alerts.csv
 
 ---
 
-## 📈 Demonstration Example
+##  Demonstration Example
 
 Sample readings include a higher consumption value at **Hour 8**.
 
@@ -250,7 +250,7 @@ The analytics agent identifies this as a high-usage reading when it exceeds the 
 
 ---
 
-## ▶️ How to Build and Run
+##  How to Build and Run
 
 Open Ubuntu/WSL and move to the project directory:
 
@@ -272,7 +272,7 @@ Run the application:
 
 ---
 
-## 🧹 Rebuild the Project
+##  Rebuild the Project
 
 After modifying the source code:
 
@@ -314,7 +314,7 @@ Contains readings that crossed the configured anomaly threshold.
 
 ---
 
-## 🔐 Input Validation
+##  Input Validation
 
 The program validates user input to prevent invalid values.
 
@@ -327,21 +327,21 @@ Examples:
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-* ⚡ Smart-meter simulation
-* 📊 Energy dashboard
-* 📈 Consumption analysis
-* 🚨 High-usage detection
-* 💰 Cost estimation
-* 💾 CSV data storage
-* 📄 Automatic report generation
-* 🐧 Linux/Ubuntu execution
-* 💻 C++17 implementation
+*  Smart-meter simulation
+*  Energy dashboard
+*  Consumption analysis
+*  High-usage detection
+*  Cost estimation
+*  CSV data storage
+*  Automatic report generation
+*  Linux/Ubuntu execution
+*  C++17 implementation
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 The project can be extended with:
 
@@ -355,7 +355,7 @@ The project can be extended with:
 
 ---
 
-## 👩‍💻 Project Type
+##  Project Type
 
 **Individual Academic Training Project**
 
@@ -367,7 +367,7 @@ The project can be extended with:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 The Smart Meter Pulse Counter & Energy Analytics Agent demonstrates how simulated meter data can be processed using C++ in a Linux environment.
 
