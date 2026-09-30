@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -euo pipefail
-# Use a temporary working directory so test runs never overwrite a user's readings.
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
