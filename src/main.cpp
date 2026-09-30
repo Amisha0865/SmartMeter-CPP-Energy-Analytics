@@ -12,7 +12,7 @@
 using namespace std;
 
 struct Reading { int hour; int pulses; };
-const double PULSES_PER_KWH = 1000.0; // Change to match the simulated meter
+const double PULSES_PER_KWH = 1000.0; 
 const string DATA_FILE = "data/readings.csv";
 const string REPORT_FILE = "reports/energy_report.txt";
 const string ALERT_FILE = "reports/alerts.csv";
@@ -31,7 +31,7 @@ void banner() {
     cout << CYAN << BOLD
          << "\n╔══════════════════════════════════════════════════════╗\n"
          << "║                                                      ║\n"
-         << "║          ⚡ SMART METER ANALYTICS SYSTEM ⚡          ║\n"
+         << "║           SMART METER ANALYTICS SYSTEM          ║\n"
          << "║                                                      ║\n"
          << "║             C++17  •  LINUX  •  SIMULATION           ║\n"
          << "║                                                      ║\n"
@@ -88,7 +88,7 @@ void loadCSV() {
                 for (const auto &r : loaded) if (r.hour == hour) duplicate = true;
                 if (!duplicate) loaded.push_back({hour,pulses});
             }
-        } catch (...) { /* Skip malformed rows */ }
+        } catch (...) {  }
     }
     sort(loaded.begin(), loaded.end(), [](const Reading &a, const Reading &b) { return a.hour < b.hour; });
     readings = loaded;
